@@ -1,0 +1,38 @@
+.navbar-brand h1 {
+	margin-top:0 ;
+}
+.navbar-brand {
+	padding: 5px;
+}
+
+#myHeader {
+	background-color: orange;
+}
+
+.myBorder {
+	border-color: black;
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
+#collapsable-nav {
+	background-color: grey;
+	padding: 0;
+}
+li a {
+	color: white!important;
+}
+#nav-list {
+	margin: 0;
+}
+.myContent {
+	background-color: skyblue;
+	margin: auto;
+	width: 95%;
+	padding: 3%;
+	border-radius: 20px;
+}
+@media (min-width: 768px) {
+	.myDisplayIssue{
+    	display: none!important;
+    }
+}
